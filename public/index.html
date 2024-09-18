@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExMD v1.0</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-color:cornflowerblue;
+        }
+        .container{
+          margin-left: calc(50% - 225px);
+          margin-right: calc(50% - 225px);
+          margin-top: calc(50vh - 66px);
+          margin-bottom: calc(50vh - 66px);
+        }
+        .container h2{
+            font-family:cursive;
+            font-size: 3em;
+            margin: 0px;
+            animation: pulse 2s ease-in-out 0s infinite alternate;
+            color:coral;
+        }
+
+        @keyframes pulse {
+            0%{
+                color:cornflowerblue;
+
+            }
+
+            100%{
+                color:coral;
+                scale: 120%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>ExMD is Running...</h2>
+    </div>
+    
+</body>
+</html>
